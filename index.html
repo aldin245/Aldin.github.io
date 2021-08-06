@@ -6,6 +6,20 @@
 <body>
 	<p align="center">
  <img class="gambar" src="Aldin.jpeg">
+		
+<script>
+  var i=0,text;
+  text = "Selamat Datang di MuhdannyBlog!! Enjoy......"
+
+  function ketik() {
+    if(i<text.length){
+      document.getElementById("text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(ketik,80);
+    }
+  }
+  ketik();
+</script>
 	</body>
 	</p>
 		</html>
