@@ -10,7 +10,7 @@ body{
   background: black;
 }
 
-#text{
+.text{
   color: red;
   font-size: 100px;
   text-align: center;
