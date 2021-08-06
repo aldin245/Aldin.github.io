@@ -4,3 +4,10 @@ width: 350px;
    border-radius: 50%;
    	margin-top: 5px;
 }
+.bg {
+    background-image: url("background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
