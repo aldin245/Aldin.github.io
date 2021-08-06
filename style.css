@@ -11,3 +11,11 @@ width: 350px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.prof-user {
+    height: 270px!important;
+}
+.parallax >img {
+	/* opacity: .5; 
+	- Para hacer la imagen, como marca de agua 
+	*/ 
+}
