@@ -4,18 +4,3 @@ width: 350px;
    border-radius: 50%;
    	margin-top: 5px;
 }
-.bg {
-    background-image: url("bg.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.prof-user {
-    height: 270px!important;
-}
-.parallax >img {
-	/* opacity: .5; 
-	- Para hacer la imagen, como marca de agua 
-	*/ 
-}
