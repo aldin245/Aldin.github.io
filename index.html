@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <div class="slider">
+    <ul class="slides">
+    <meta charset="utf-8">
+    <title>My PORTOFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+	body
+        {
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+  </head>
+  </ul>
+  <body>
+  <p align="center">
+ <img class="gambar" src="Aldin.jpeg">
+</p>
+    <div id="text">
+
+    </div>
+
+<script>
+  var i=0,text;
+  text = "Hi !! This is My PORTOFOLIO"
+
+  function ketik() {
+    if(i<text.length){
+      document.getElementById("text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(ketik,80);
+    }
+  }
+  ketik();
+</script>
+<div class="container">
+        <div class="img-galeri">
+            <ul>
+			<a href="file:///D:/kp/CV%20Aldin.pdf">
+                <li><img src="cv.jpg"></li>
+            </ul>
+        </div>
+    </div>
+
+  </body>
+</html>
